@@ -1,0 +1,31 @@
+Thread [-1290810560] [Loser]
+Words Tried: 5
+Percentage in BF 0.00%
+Thread [-1274025152] [Loser]
+Words Tried: 10
+Percentage in BF 0.00%
+Thread [-1299203264] [Loser]
+Words Tried: 34448
+Percentage in BF 27.00%
+Thread [-1243403456] [Loser]
+Words Tried: 279844
+Percentage in BF 25.20%
+Thread [-1265632448] [Winner]
+Words Tried: 393078
+Percentage in BF 26.16%
+Thread [-1253893312] [Stopped]
+Words Tried: 354663
+Percentage in BF 26.35%
+Thread [-1282417856] [Stopped]
+Words Tried: 395621
+Percentage in BF 25.73%
+Thread [-1226618048] [Stopped]
+Words Tried: 448924
+Percentage in BF 25.64%
+Thread [-1218225344] [Stopped]
+Words Tried: 397018
+Percentage in BF 25.47%
+Thread [-1235010752] [Stopped]
+Words Tried: 352837
+Percentage in BF 25.33%
+Execution Time: 4999999.60 ms

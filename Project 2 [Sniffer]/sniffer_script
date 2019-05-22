@@ -1,0 +1,27 @@
+#!/bin/bash
+
+for argument in $*
+do
+	touch temp2; rm temp2; touch temp2;
+	counter=0;
+	files=`ls`;
+	
+	for file in $files
+	do
+		touch temp; rm temp; touch temp;
+		expression=".$argument "
+		grep "$expression" $file > temp;
+		cut -f2 -d " " temp >> temp2;
+		
+		touch temp; rm temp; # rm temp
+	done
+
+	while read line
+	do
+		let counter=counter+line
+	done < temp2
+
+	echo $argument $counter
+done
+
+touch temp2; rm temp2; #rm temp2
